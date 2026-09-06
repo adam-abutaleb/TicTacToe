@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8687c119-1855-4d8d-a4ff-aeb1bc7e8d96" name="Changes" comment="I have completed the following compononents of tic-tac-toe;&#10;-created and displayed a tic-tac-toe board&#10;-take a players move and update the board&#10;TODO&#10;*write the algorithm method to check if there is a winner&#10;*write the algorithm method to end game as a draw if the board is full&#10;*keep taking the next move" />
+    <list default="true" id="8687c119-1855-4d8d-a4ff-aeb1bc7e8d96" name="Changes" comment="I have completed the following compononents of tic-tac-toe;&#10;-created and displayed a tic-tac-toe board&#10;-take a players move and update the board&#10;TODO&#10;*write the algorithm method to check if there is a winner&#10;*write the algorithm method to end game as a draw if the board is full&#10;*keep taking the next move">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticTacToe.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +32,22 @@
     &quot;assignee&quot;: &quot;adam-abutaleb&quot;
   }
 }</component>
+  <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPENED",
+    "assignee": {
+      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
+      "username": "adamabutaleb2007",
+      "fullname": "Adam Abutaleb"
+    }
+  }
+}]]></component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "first": "https://gitlab.com/adamabutaleb2007/TicTacToe.git",
+    "second": "0a98b60c-364c-4996-8497-12e3d520b1bf"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/adam-abutaleb/TicTacToe.git&quot;,
@@ -41,61 +60,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0013957084428018" />
-      <entry key="MS500" value="1.4351708132514438" />
-      <entry key="S2" value="3.211002098932075" />
-      <entry key="S5" value="6.485786571471796" />
-      <entry key="S10" value="11.735187310322923" />
-      <entry key="S30" value="30.488237576448714" />
-      <entry key="S60" value="50.68730782169297" />
-      <entry key="M2" value="73.74668328899195" />
-      <entry key="M5" value="109.56266554678768" />
-      <entry key="M10" value="150.64693764833999" />
-      <entry key="M15" value="183.92671020932775" />
-      <entry key="M30" value="253.65632410604636" />
-      <entry key="H1" value="322.3047994369999" />
-      <entry key="H2" value="373.437196539018" />
-      <entry key="H4" value="405.14366596413123" />
-      <entry key="D1" value="435.45953820752635" />
-      <entry key="W1" value="441.05533390153164" />
+      <entry key="MS100" value="1.0000000000173053" />
+      <entry key="MS500" value="1.007041019239147" />
+      <entry key="S2" value="1.2896735773655692" />
+      <entry key="S5" value="1.6092051318420688" />
+      <entry key="S10" value="1.7805222457431071" />
+      <entry key="S30" value="2.0143716540200423" />
+      <entry key="S60" value="3.205451191138681" />
+      <entry key="M2" value="7.562479450441959" />
+      <entry key="M5" value="22.0385642633033" />
+      <entry key="M10" value="52.99275025530176" />
+      <entry key="M15" value="90.83151975864551" />
+      <entry key="M30" value="200.04327851808844" />
+      <entry key="H1" value="340.8357071722001" />
+      <entry key="H2" value="465.4639655599055" />
+      <entry key="H4" value="550.9328462246721" />
+      <entry key="D1" value="638.4005496068484" />
+      <entry key="W1" value="655.1532750014397" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="1.1555505963063524E-131" />
+      <entry key="S2" value="1.843729656964778E-33" />
+      <entry key="S5" value="8.058958077728261E-14" />
+      <entry key="S10" value="2.838830406651348E-7" />
+      <entry key="S30" value="0.006572235991980015" />
+      <entry key="S60" value="0.08106932854486146" />
+      <entry key="M2" value="0.28474221712374753" />
+      <entry key="M5" value="0.6169248291332509" />
+      <entry key="M10" value="0.8869308763317484" />
+      <entry key="M15" value="1.0741012972931825" />
+      <entry key="M30" value="1.3974930601753597" />
+      <entry key="H1" value="1.6502432143095178" />
+      <entry key="H2" value="1.81069669881686" />
+      <entry key="H4" value="1.9014062882300173" />
+      <entry key="D1" value="1.9829891100452652" />
+      <entry key="W1" value="1.9975552787295978" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9672479712052633" />
-      <entry key="MS500" value="1.4230844802932536" />
-      <entry key="S2" value="3.202916011358578" />
-      <entry key="S5" value="6.479108725611585" />
-      <entry key="S10" value="11.729108798469527" />
-      <entry key="S30" value="30.482468554787424" />
-      <entry key="S60" value="50.67728614343104" />
-      <entry key="M2" value="73.7161989833118" />
-      <entry key="M5" value="109.49281438655133" />
-      <entry key="M10" value="150.5662036006349" />
-      <entry key="M15" value="183.8501754997381" />
-      <entry key="M30" value="253.5980623110112" />
-      <entry key="H1" value="322.26746363426173" />
-      <entry key="H2" value="373.41579428830903" />
-      <entry key="H4" value="405.1321661821257" />
-      <entry key="D1" value="435.4574990281623" />
-      <entry key="W1" value="441.05503942278995" />
+      <entry key="MS100" value="1.2547093244693985E-9" />
+      <entry key="MS500" value="0.01736055248368439" />
+      <entry key="S2" value="0.5257552720137304" />
+      <entry key="S5" value="1.152323678057147" />
+      <entry key="S10" value="1.513700536019495" />
+      <entry key="S30" value="1.920301423452784" />
+      <entry key="S60" value="3.2253514375813443" />
+      <entry key="M2" value="7.7961406291678745" />
+      <entry key="M5" value="22.608339508480988" />
+      <entry key="M10" value="53.83613081559857" />
+      <entry key="M15" value="91.86174684225716" />
+      <entry key="M30" value="201.39623207932468" />
+      <entry key="H1" value="342.4487056424052" />
+      <entry key="H2" value="467.24947999367225" />
+      <entry key="H4" value="552.8194460922625" />
+      <entry key="D1" value="640.3806981872939" />
+      <entry key="W1" value="657.150414372273" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -143,6 +162,7 @@
       <updated>1788450878970</updated>
       <workItem from="1788450879988" duration="2921000" />
       <workItem from="1788478596103" duration="2340000" />
+      <workItem from="1788717018383" duration="3861000" />
     </task>
     <task id="LOCAL-00001" summary="I have completed the following compononents of tic-tac-toe;&#10;-created and displayed a tic-tac-toe board&#10;-take a players move and update the board&#10;TODO&#10;*write the algorithm method to check if there is a winner&#10;*write the algorithm method to end game as a draw if the board is full&#10;*keep taking the next move">
       <option name="closed" value="true" />
@@ -152,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788480848106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I have completed the following compononents of tic-tac-toe;&#10;-created and displayed a tic-tac-toe board&#10;-take a players move and update the board&#10;TODO&#10;*write the algorithm method to check if there is a winner&#10;*write the algorithm method to end game as a draw if the board is full&#10;*keep taking the next move">
+      <option name="closed" value="true" />
+      <created>1788717049644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788717049644</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +202,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="I have completed the following compononents of tic-tac-toe;&#10;-created and displayed a tic-tac-toe board&#10;-take a players move and update the board&#10;TODO&#10;*write the algorithm method to check if there is a winner&#10;*write the algorithm method to end game as a draw if the board is full&#10;*keep taking the next move" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TicTacToe$ticTacToe.coverage" NAME="ticTacToe Coverage Results" MODIFIED="1788480581138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TicTacToe$ticTacToe.coverage" NAME="ticTacToe Coverage Results" MODIFIED="1788723840681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
