@@ -20,7 +20,7 @@ def print_board(board):
     print("  1 2 3")
     i = 1
     for row in board:
-        print(str(i) + ' ', end="")
+        print(str(i) + " ", end="")
         print(*row)
         i += 1
 
