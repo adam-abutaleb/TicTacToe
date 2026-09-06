@@ -28,7 +28,7 @@ class player:
     def __init__(self, player_piece):
         self.player_piece = player_piece
 
-def get_move(player_piece):
+def get_move(board, player_piece):
     while True:
         if player_piece == 'X':
             print("Player one: ")
@@ -40,27 +40,27 @@ def get_move(player_piece):
         except ValueError: #handles non-int inputs
             print("That is not a valid coordinate. Please enter digits 1-3 only.")
             #reprint the game board
-            print_board(game_board)
+            print_board(board)
             continue
 
         if X not in (1, 2, 3) or Y not in (1, 2, 3): #handles int inputs outside the range of the board
             print("That is not a valid coordinate. Please enter digits 1-3 only.")
             #reprint the game board
-            print_board(game_board)
+            print_board(board)
             continue
 
-        if game_board[Y-1][X-1] != '-': #handles input where there is already a piece
+        if board[Y-1][X-1] != '-': #handles input where there is already a piece
             print("That square is already taken.")
             #reprint the game board
-            print_board(game_board)
+            print_board(board)
             continue
 
-        execute_move(X, Y, player_piece)
+        execute_move(board, X, Y, player_piece)
         break
 
-def execute_move(X, Y, player_piece):
-    game_board[Y-1][X-1] = player_piece
-    print_board(game_board)
+def execute_move(board, X, Y, player_piece):
+    board[Y-1][X-1] = player_piece
+    print_board(board)
 
 def is_board_full(board):
     for row in board:
@@ -86,10 +86,10 @@ def play_game():
     player_turn = 0
     while True:
         if player_turn == 0:
-            get_move(player1.player_piece)
+            get_move(game_board, player1.player_piece)
             player_turn = 1
         else:
-            get_move(player2.player_piece)
+            get_move(game_board, player2.player_piece)
             player_turn = 0
         if is_board_full(game_board):
             print("IT'S A DRAW!")
