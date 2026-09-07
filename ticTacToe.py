@@ -70,13 +70,28 @@ def is_board_full(board):
     else:
         return True
 
-def get_winner(board):
-    pass
+def has_winner(board):
+    for row in board:
+        if row[0] == row[1] == row[2] and row[0] != '-':
+            #this loop checks all three rows if they equal each other and aren't the default value
+            return True
+    for col in range(3):
+        if board[0][col] == board[1][col] == board[2][col] and board[0][col] != '-':
+            #this loop checks all three columns for equality and if they aren't the default value
+            return True
+    if board[0][0] == board[1][1] == board[2][2] and board[0][0] != '-':
+        #this checks the first possible diagnol
+        return True
+    if board[0][2] == board[1][1] == board[2][0] and board[0][2] != '-':
+        #this checks the second
+        return True
+
 
 #tic-tac-toe keeps playing until; the board has no more spaces, or there is three in a row
 #I will use a while loop that will run until either of these conditions are met
 
 def play_game():
+    global game_board
     player1 = player("X")
     player2 = player("O")
     print("Welcome to Tic-Tac-Toe")
@@ -86,14 +101,23 @@ def play_game():
     player_turn = 0
     while True:
         if player_turn == 0:
+            current_player = player1
             get_move(game_board, player1.player_piece)
             player_turn = 1
         else:
+            current_player = player2
             get_move(game_board, player2.player_piece)
             player_turn = 0
         if is_board_full(game_board):
             print("IT'S A DRAW!")
             break
 
+        if has_winner(game_board):
+            if current_player.player_piece == 'X':
+                print("PLAYER 1 WINS!")
+                break
+            else:
+                print("PLAYER 2 WINS!")
+                break
 
 play_game()

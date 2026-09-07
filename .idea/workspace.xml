@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8687c119-1855-4d8d-a4ff-aeb1bc7e8d96" name="Changes" comment="The game now alternates turns between two players, handles bad inputs, and ends the game in a draw if the board has no playable squares left.&#10;TODO:&#10;-Finish the method that checks if someone has won and achieved three pieces in a row&#10;-When the game ends as a win or a draw, give the players the choice to play again">
+    <list default="true" id="8687c119-1855-4d8d-a4ff-aeb1bc7e8d96" name="Changes" comment="Same version but with each method call requiring a board to be passed instead of altering the global values of the game_board">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticTacToe.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticTacToe.py" afterDir="false" />
     </list>
@@ -60,61 +60,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000010435997975" />
-      <entry key="MS500" value="1.0636365749852887" />
-      <entry key="S2" value="1.5022677877756994" />
-      <entry key="S5" value="1.7726055778949381" />
-      <entry key="S10" value="2.04311527451317" />
-      <entry key="S30" value="3.50073781632085" />
-      <entry key="S60" value="8.023048477159147" />
-      <entry key="M2" value="23.724576645251243" />
-      <entry key="M5" value="61.25426608888897" />
-      <entry key="M10" value="102.33967393732759" />
-      <entry key="M15" value="141.19625893719743" />
-      <entry key="M30" value="251.79217341326796" />
-      <entry key="H1" value="402.1667140293791" />
-      <entry key="H2" value="541.4318787267187" />
-      <entry key="H4" value="639.5636226411044" />
-      <entry key="D1" value="741.8475160874481" />
-      <entry key="W1" value="761.6321792607029" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000001226" />
+      <entry key="S10" value="1.0000004928359094" />
+      <entry key="S30" value="1.0126327723892454" />
+      <entry key="S60" value="1.1906340033353442" />
+      <entry key="M2" value="2.671130697266168" />
+      <entry key="M5" value="17.242924513743272" />
+      <entry key="M10" value="50.36208690321713" />
+      <entry key="M15" value="85.67391662656452" />
+      <entry key="M30" value="194.6982960999817" />
+      <entry key="H1" value="371.4300801520253" />
+      <entry key="H2" value="562.8104815000847" />
+      <entry key="H4" value="711.6858181414832" />
+      <entry key="D1" value="877.9098900588327" />
+      <entry key="W1" value="911.281389664644" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.145713146850147E-131" />
-      <entry key="S5" value="8.230551073711488E-53" />
-      <entry key="S10" value="9.072238463417652E-27" />
-      <entry key="S30" value="2.085634260695781E-9" />
-      <entry key="S60" value="4.566874503408041E-5" />
-      <entry key="M2" value="0.0067582322594902855" />
-      <entry key="M5" value="0.1381607715227307" />
-      <entry key="M10" value="0.4197261466278938" />
-      <entry key="M15" value="0.6522730090904555" />
-      <entry key="M30" value="1.0890347635491686" />
-      <entry key="H1" value="1.4567800901986976" />
-      <entry key="H2" value="1.7012523207480879" />
-      <entry key="H4" value="1.8430471097561583" />
-      <entry key="D1" value="1.9727130350885407" />
-      <entry key="W1" value="1.9960731898209993" />
+      <entry key="S2" value="6.936747889310601E-205" />
+      <entry key="S5" value="2.1700131432636917E-82" />
+      <entry key="S10" value="1.4730964473732498E-41" />
+      <entry key="S30" value="2.4513786201166515E-14" />
+      <entry key="S60" value="1.5656879065940706E-7" />
+      <entry key="M2" value="3.9569259970000787E-4" />
+      <entry key="M5" value="0.04402717580454037" />
+      <entry key="M10" value="0.23346366929710066" />
+      <entry key="M15" value="0.4507351111590706" />
+      <entry key="M30" value="1.0172416978904666" />
+      <entry key="H1" value="1.6792486617083389" />
+      <entry key="H2" value="2.2215128073867327" />
+      <entry key="H4" value="2.574893672407604" />
+      <entry key="D1" value="2.9235099389640125" />
+      <entry key="W1" value="2.9889252063477985" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="9.44576456144361E-5" />
-      <entry key="MS500" value="0.17446670924059418" />
-      <entry key="S2" value="0.994299223251475" />
-      <entry key="S5" value="1.508794372329511" />
-      <entry key="S10" value="1.8773871470322048" />
-      <entry key="S30" value="3.4055277316524655" />
-      <entry key="S60" value="7.961833301091567" />
-      <entry key="M2" value="23.694080211671448" />
-      <entry key="M5" value="61.36545030686377" />
-      <entry key="M10" value="102.7301273056319" />
-      <entry key="M15" value="141.81599822300578" />
-      <entry key="M30" value="252.8434931884641" />
-      <entry key="H1" value="403.58909635259033" />
-      <entry key="H2" value="543.1087070605803" />
-      <entry key="H4" value="641.3919348169018" />
-      <entry key="D1" value="743.8173393386799" />
-      <entry key="W1" value="763.6278277084156" />
+      <entry key="MS100" value="2.2652032022537992E-5" />
+      <entry key="MS500" value="0.11776640923810108" />
+      <entry key="S2" value="0.5858080810416733" />
+      <entry key="S5" value="0.8074249091930776" />
+      <entry key="S10" value="0.8985686895806205" />
+      <entry key="S30" value="0.9770982742308831" />
+      <entry key="S60" value="1.1695479266013382" />
+      <entry key="M2" value="2.653683118070233" />
+      <entry key="M5" value="17.265119931898777" />
+      <entry key="M10" value="50.57270084143979" />
+      <entry key="M15" value="86.10132973598718" />
+      <entry key="M30" value="195.68853110418786" />
+      <entry key="H1" value="373.0806603062129" />
+      <entry key="H2" value="565.0087956263687" />
+      <entry key="H4" value="714.2455812472568" />
+      <entry key="D1" value="880.8302154834554" />
+      <entry key="W1" value="914.2698408836811" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -162,7 +162,7 @@
       <updated>1788450878970</updated>
       <workItem from="1788450879988" duration="2921000" />
       <workItem from="1788478596103" duration="2340000" />
-      <workItem from="1788717018383" duration="4416000" />
+      <workItem from="1788717018383" duration="7160000" />
     </task>
     <task id="LOCAL-00001" summary="I have completed the following compononents of tic-tac-toe;&#10;-created and displayed a tic-tac-toe board&#10;-take a players move and update the board&#10;TODO&#10;*write the algorithm method to check if there is a winner&#10;*write the algorithm method to end game as a draw if the board is full&#10;*keep taking the next move">
       <option name="closed" value="true" />
@@ -188,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788724217874</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Same version but with each method call requiring a board to be passed instead of altering the global values of the game_board">
+      <option name="closed" value="true" />
+      <created>1788724775357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788724775357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,9 +216,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I have completed the following compononents of tic-tac-toe;&#10;-created and displayed a tic-tac-toe board&#10;-take a players move and update the board&#10;TODO&#10;*write the algorithm method to check if there is a winner&#10;*write the algorithm method to end game as a draw if the board is full&#10;*keep taking the next move" />
     <MESSAGE value="The game now alternates turns between two players, handles bad inputs, and ends the game in a draw if the board has no playable squares left.&#10;TODO:&#10;-Finish the method that checks if someone has won and achieved three pieces in a row&#10;-When the game ends as a win or a draw, give the players the choice to play again" />
-    <option name="LAST_COMMIT_MESSAGE" value="The game now alternates turns between two players, handles bad inputs, and ends the game in a draw if the board has no playable squares left.&#10;TODO:&#10;-Finish the method that checks if someone has won and achieved three pieces in a row&#10;-When the game ends as a win or a draw, give the players the choice to play again" />
+    <MESSAGE value="Same version but with each method call requiring a board to be passed instead of altering the global values of the game_board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Same version but with each method call requiring a board to be passed instead of altering the global values of the game_board" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TicTacToe$ticTacToe.coverage" NAME="ticTacToe Coverage Results" MODIFIED="1788724510675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TicTacToe$ticTacToe.coverage" NAME="ticTacToe Coverage Results" MODIFIED="1788726937211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
